@@ -195,7 +195,7 @@ router.post('/', upload.none(), async function (request: express.Request, respon
 		is_app_jumpable: request.body.is_app_jumpable,
 		language_id: request.body.language_id,
 		mii: sender.mii.data,
-		mii_face_url: `https://mii.olv.pretendo.cc/mii/${sender.pid}/${miiFace}`,
+		mii_face_url: `https://mii.olv.brocatech.com/mii/${sender.pid}/${miiFace}`,
 		pid: request.pid,
 		platform_id: request.paramPack.platform_id,
 		region_id: request.paramPack.region_id,
