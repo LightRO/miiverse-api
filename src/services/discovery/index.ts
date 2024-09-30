@@ -12,9 +12,9 @@ const discovery = express.Router();
 
 // Create subdomains
 LOG_INFO('[MIIVERSE] Creating \'discovery\' subdomain');
-router.use(subdomain('discovery.olv', discovery));
-router.use(subdomain('discovery-test.olv', discovery));
-router.use(subdomain('discovery-dev.olv', discovery));
+router.use(subdomain('discove.olv', discovery));
+router.use(subdomain('discove-test.olv', discovery));
+router.use(subdomain('discove-dev.olv', discovery));
 
 // Setup routes
 discovery.use('/v1/endpoint', discoveryHandlers);
